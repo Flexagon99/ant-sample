@@ -28,7 +28,7 @@ steps:
     command: 'publish'
     publishDirectory: '$(System.DefaultWorkingDirectory)/build/jar/ant-sample.jar'
     feedsToUsePublish: 'internal'
-    vstsFeedPublish: 'helloWorld/AzureFeedTest'
+    vstsFeedPublish: 'EnterpriseDevOps/JavaArtifacts'
     vstsFeedPackagePublish: '$(packageName)'
     versionOption: 'custom'
     versionPublish: '$(packageVersion)'
