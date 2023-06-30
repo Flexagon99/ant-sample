@@ -8,7 +8,7 @@ trigger:
   branches:
     include:
       - $(branchName)
-
+# additional comment
 pool:
   vmImage: ubuntu-latest
 
